@@ -21,7 +21,7 @@ export BOT_API_KEY PARSE_BRANCH PARSE_ORIGIN COMMIT_POINT TELEGRAM_TOKEN
 kickstart_pub
 
 req_install() {
-    pip2 install -r requirements.txt
+    pip3 install -r requirements.txt
 }
 
 get_session() {
